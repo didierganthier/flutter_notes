@@ -1,8 +1,9 @@
+import 'package:flutternotes/models/note.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqlite_api.dart';
 import 'dart:async';
-import 'Note.dart';
+
 
 class NotesDBHandler {
 
